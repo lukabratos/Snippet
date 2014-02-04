@@ -20,6 +20,6 @@ If you want to assign a keyboard shortcut to Snippet service you can do this eas
 ## Usage
 
 Select code and right-click. `Snippet` is located under `Services` menu.
-When you use it, it will automatically upload selected text to GitHub Gist and it will copy generated URL to your clipboard.
+When you use it, it will automatically upload selected text to GitHub Gist and it will copy generated URL to your clipboard so you can share instantly.
 
 ![Snippet](https://dl.dropboxusercontent.com/u/25925697/Screenshots/Snippet.gif)
