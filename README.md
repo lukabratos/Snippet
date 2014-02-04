@@ -1,6 +1,6 @@
 # Share snippets of code with ease!
 
-GitHub Gist is a nice way to share a snippet of code or a block of text with other people. Gists are under git revision control so it is very easy to view and follow changes, other users can fork them and they are under SSL encryption for private sharing.
+GitHub Gist is a nice way to share a snippet of code or a block of text with other people. Gists are under Git revision control so it is very easy to view and follow changes, other users can fork them and they are under SSL encryption for private sharing.
 
 ## Overview
 
