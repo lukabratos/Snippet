@@ -4,11 +4,11 @@ GitHub Gist is a nice way to share a snippet of code or a block of text with oth
 
 ## Overview
 
-Snippet is a Mac OS X Service made with Automator and powered by a small Ruby script for uploading code snippets to GitHub Gist with the ease of right-button click.
+Snippet is a Mac OS X Service made with Automator and powered by a small Ruby script for uploading code snippets to GitHub Gist with the ease of a simple right-click.
 
 ## Installation
 
-Double-click on `Snippet.workflow` and click on `Install` button.
+Double-click on `Snippet.workflow` and click on the `Install` button.
 This will install Snippet into `~/Library/Services` folder.
 
 ![Install](https://dl.dropboxusercontent.com/u/25925697/Screenshots/Install.png)
@@ -23,3 +23,7 @@ Select code and right-click. `Snippet` is located under `Services` menu.
 When you use it, it will automatically upload selected text to GitHub Gist and it will copy generated URL to your clipboard so you can share instantly.
 
 ![Snippet](https://dl.dropboxusercontent.com/u/25925697/Screenshots/Snippet.gif)
+
+Requirenments
+====================
+`Ruby 1.9.2+` or `gem install json`.
