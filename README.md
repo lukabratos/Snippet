@@ -10,6 +10,9 @@ Snippet is a Mac OS X Service made with Automator and powered by a small Ruby sc
 
 Double-click on `Snippet.workflow` and click on `Install` button.
 This will install Snippet into `~/Library/Services` folder.
+
+![Install](https://dl.dropboxusercontent.com/u/25925697/Screenshots/Install.png)
+
 You can uninstall by deleting it from the same folder.
 
 If you want to assign a keyboard shortcut to Snippet service you can do this easily by assigning a key in `System Preferences -> Keyboard -> Shortcuts -> Services`.
