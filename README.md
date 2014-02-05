@@ -26,4 +26,4 @@ When you use it, it will automatically upload selected text to GitHub Gist and i
 
 Requirenments
 ====================
-`Ruby 1.9.2+` or `gem install json`.
+Standard Python 2 linked to `/usr/bin/python` (default setting).
