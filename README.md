@@ -4,7 +4,7 @@ GitHub Gist is a nice way to share a snippet of code or a block of text with oth
 
 ## Overview
 
-Snippet is a Mac OS X Service made with Automator and powered by a small Ruby script for uploading code snippets to GitHub Gist with the ease of a simple right-click.
+Snippet is a Mac OS X Service made with Automator and powered by a small Python script for uploading code snippets to GitHub Gist with the ease of a simple right-click.
 
 ## Installation
 
