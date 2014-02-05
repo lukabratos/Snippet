@@ -59,27 +59,21 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>require 'json'
-require 'net/http'
-
-uri = URI("https://api.github.com/gists")
-data = { 'files' =&gt; { 'snippet' =&gt; { 'content' =&gt; ARGV[0] }}}
-
-request = Net::HTTP::Post.new(uri.path)
-request.body = data.to_json
-
-response = Net::HTTP.start(uri.hostname, uri.port, :use_ssl =&gt; true) do |http|
-	http.request(request)
-end
-
-my_hash = JSON.parse(response.body)
-IO.popen('pbcopy', 'w') { |f| f &lt;&lt; my_hash["html_url"] }</string>
+					<string>import sys as s
+import os as o
+import urllib2 as u
+import json as j
+r = u.Request("https://api.github.com/gists")
+r.add_header("Content-type","application/json")
+d = {"files":{"snippet":{"content":s.argv[1]}}}
+g = j.load(u.urlopen(r,j.dumps(d)))["html_url"]
+o.system("echo %s |pbcopy" % g)</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
 					<integer>1</integer>
 					<key>shell</key>
-					<string>/usr/bin/ruby</string>
+					<string>/usr/bin/python</string>
 					<key>source</key>
 					<string></string>
 				</dict>
